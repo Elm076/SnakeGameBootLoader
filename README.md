@@ -61,4 +61,4 @@ The game is still under develop so there are some minor bugs that might happen t
 - The limits of the screen are handled by the qemu's default window, so if you reach the top or bottom edge you won't see anymore the snake but it's actually still playing. Just if you go to high, set the snake's direction down and eventually the snake will be again inside the play area and vice versa if you get too low.
 
 ## That's all!
-Enjoy it 😁🐵
+Enjoy it 😁
