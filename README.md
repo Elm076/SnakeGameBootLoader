@@ -14,7 +14,12 @@ org 0x7c00 ; init memory of the bootloader`
 
 #### Global declarations and constants
 We will set all the Interruptions functions and constants to make easier the code
-_Check it from the line 12 to 31_
+_Check it from the line 12 to 31 and from 250 to 263_
+
+#### Sign the bootloader
+As a bootloader, we need to sign it with:
+`times 510 - ($ - $$) db 0
+dw 0xAA55`
 
 #### Begining of the game
 At the start of the game we clear the screen and prepare it to set the visual interface
