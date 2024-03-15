@@ -41,9 +41,9 @@ We need to have installed in our computer NASM and QEMU to run the game.
 2. If you don't have QEMU installed use in the Ubuntu Terminal:
   - `sudo apt install qemu`
 3. To run the game just give exectue permissions to the shell bash script fitted in the repo:
-`sudo chmod +x ./run_game.sh`
+  - `sudo chmod +x ./run_game.sh`
 4. And next run it:
-`./run_game.sh`
+  - `./run_game.sh`
 
 ## That's all!
 Enjoy it 😁🐵
