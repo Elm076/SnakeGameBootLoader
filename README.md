@@ -49,6 +49,16 @@ We need to have installed in our computer NASM and QEMU to run the game.
   - `sudo chmod +x ./run_game.sh`
 4. And next run it:
   - `./run_game.sh`
+5. Once in the game, the controls are:
+  - **Up arrow** for going up
+  - **Down arrow** for going down
+  - **Left arrow** for going left
+  - **Right arrow** for going right
+
+## Aspects to take into account
+The game is still under develop so there are some minor bugs that might happen to you when playing:
+- Sometimes, when u eat a piece of food, as the random generator isn't 100% fittable in this program, the food won't respawn and you need to restart the game and go for another match
+- The limits of the screen are handled by the qemu's default window, so if you reach the top or bottom edge you won't see anymore the snake but it's actually still playing. Just if you go to high, set the snake's direction down and eventually the snake will be again inside the play area and vice versa if you get too low.
 
 ## That's all!
 Enjoy it 😁🐵
