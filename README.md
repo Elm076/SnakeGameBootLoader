@@ -40,7 +40,7 @@ _Check it from the line 39 to 111_
 - **SetWin**: If we won, we clear the screen and print a win message finishing the game.
 
 ## Usage
-We need to have installed in our computer NASM and QEMU to run the game.
+We need to have installed in your computer NASM and QEMU to run the game.
 1. If you don't have NASM installed use in the Ubuntu Terminal:
   - `sudo apt install nasm`
 2. If you don't have QEMU installed use in the Ubuntu Terminal:
