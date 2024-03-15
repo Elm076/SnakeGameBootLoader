@@ -46,4 +46,4 @@ And next run it:
 `./run_game.sh`
 
 ## That's all!
-#### Enjoy it 😁🐵
+Enjoy it 😁🐵
