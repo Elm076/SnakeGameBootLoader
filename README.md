@@ -33,3 +33,17 @@ _Check it from the line 39 to 111_
   - **Print the fruit in the screen**: After getting the new fruit position, it will be printed in the screen using the video interruption. _Check from line 136 to 157_
 - **CheckWin**: After getting a new fruit, it will check if we won (reached 10 fruits) or not.
 - **SetWin**: If we won, we clear the screen and print a win message finishing the game.
+
+## Usage
+We need to have installed in our computer NASM and QEMU to run the game.
+- If you don't have NASM installed use in the Ubuntu Terminal:
+  - `sudo apt install nasm`
+- If you don't have QEMU installed use in the Ubuntu Terminal:
+  - `sudo apt install qemu`
+To run the game just give exectue permissions to the shell bash script fitted in the repo:
+`sudo chmod +x ./run_game.sh`
+And next run it:
+`./run_game.sh`
+
+## That's all!
+#### Enjoy it 😁🐵
